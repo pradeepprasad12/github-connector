@@ -39,7 +39,7 @@ The token is stored securely in a `.env` file and not hardcoded in the source co
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/pradeepprasad12/github-connector.git
 cd github-connector
 ```
 
@@ -105,6 +105,7 @@ This opens the interactive Swagger UI where you can test all APIs.
 
 ```http
 GET /github/repos/{username}
+
 ```
 
 ---
